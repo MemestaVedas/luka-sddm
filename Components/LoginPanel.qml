@@ -9,6 +9,13 @@ Item {
   property var session: sessionPanel.session
   property var inputHeight: Screen.height * 0.032
   property var inputWidth: Screen.width * 0.16
+  //I recommed that you pin the object first to either the top-leff, bottom-left etc using
+  //left: parent.left
+  //top:parent.top
+  //
+  //
+  //now we can add margins to easily move the object around the Screen
+  //ive only researched qml for like 3 hours so this approach may be rudimentary so feel free to suggest better methods lol
   Rectangle {
     id: loginBackground
     anchors {

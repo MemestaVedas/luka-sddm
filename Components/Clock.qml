@@ -15,7 +15,7 @@ Clock {
   anchors {
     bottom: parent.bottom
     left: parent.left  // Anchor to the left side of the parent
-    leftMargin: 0    // Adjust this value for the desired left margin
+    leftMargin: 0    // Adds a margin to the left of the text, can be used to move the text to the right
     bottomMargin: 200
   }
 }

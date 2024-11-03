@@ -2,7 +2,8 @@ import QtQuick 2.15
 import QtQuick.Window 2.15
 import QtQuick.Controls 2.15
 import "Components"
-
+//Most of the editing will be done in the Components directory with the respective qml files over there
+//its better not to toucn this qml file.
 Item {
   id: root
   height: Screen.height
