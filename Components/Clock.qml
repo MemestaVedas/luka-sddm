@@ -5,7 +5,7 @@ Clock {
   id: time
   color: config.lukadress
   timeFont {
-    family: config.Font1
+    family: config.Font2
     pointSize: 220  // Set the desired font size for the time display
   }
   dateFont {
